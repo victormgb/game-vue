@@ -3,12 +3,8 @@
 // Traemos el método post de 'axios'
 import { post } from 'axios'
 
-// Cogemos los datos de nuestra cuenta de Blizzard
-// 🔥 Recuerda que debes usar tus datos a la hora de hacer las llamadas a las APIs
-// 🔥 Como dice la documentación, tienes un máximo de llamadas por segundo y por hora a la API. 
-// 🔥 Estos datos deberían ser privados
-const clientId = process.env.VUE_APP_CLIENT_ID
-const clientSecret = process.env.VUE_APP_CLIENT_SECRET
+const clientId = "188a2a2522e9452faa5ed58ca869ca58";
+const clientSecret = "TPFAuhIaqGsoxWqTKFd051Bql6z00ov1";
 
 // API URL para hacer oauth
 const region = 'eu'
